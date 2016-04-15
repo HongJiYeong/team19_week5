@@ -141,7 +141,7 @@ public class AppTest extends TestCase{
 		assertEquals(43.0,total.additionallinerate(),10);
 		assertEquals(10.0,total.familyrate(),10);
 	}
-		public void testGoldExcessMinutes(){
+	public void testGoldExcessMinutes(){
 		user=new User("gold", 1, 1123);
 		total=new TotalRate(user);
 		assertEquals(105.3,total.totalrate(),10);
@@ -236,6 +236,6 @@ public class AppTest extends TestCase{
       		assertEquals(29.95,total.planrate(),10);
       		assertEquals(540.0,total.excessminuterate(),10);
       		assertEquals(43.0,total.additionallinerate(),10);
-      	assertEquals(10.0,total.familyrate(),10);
+      		assertEquals(10.0,total.familyrate(),10);
    	}
 }
